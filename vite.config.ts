@@ -4,6 +4,9 @@ export default defineConfig({
   tanstackStart: {
     server: { entry: "server" },
   },
+  nitro: {
+    preset: "vercel",
+  },
   vite: {
     build: {
       chunkSizeWarningLimit: 1000,
